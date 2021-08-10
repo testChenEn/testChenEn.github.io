@@ -549,111 +549,11 @@ body::backdrop {
   url(/static/media/ZenTokyoZoo-Regular.1204a71d.ttf) format('truetype')
   ;
 }
-  .MuiButtonBase-root {
-    color: inherit;
-    border: 0;
-    cursor: pointer;
-    margin: 0;
-    display: inline-flex;
-    outline: 0;
-    padding: 0;
-    position: relative;
-    align-items: center;
-    user-select: none;
-    border-radius: 0;
-    vertical-align: middle;
-    -moz-appearance: none;
-    justify-content: center;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .MuiButtonBase-root::-moz-focus-inner {
-    border-style: none;
-  }
-  .MuiButtonBase-root.Mui-disabled {
-    cursor: default;
-    pointer-events: none;
-  }
-@media print {
-  .MuiButtonBase-root {
-    -webkit-print-color-adjust: exact;
-  }
-}
-  .MuiIconButton-root {
-    flex: 0 0 auto;
-    color: rgba(0, 0, 0, 0.54);
-    padding: 12px;
-    overflow: visible;
-    font-size: 1.5rem;
-    text-align: center;
-    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    border-radius: 50%;
-  }
-  .MuiIconButton-root:hover {
-    background-color: rgba(0, 0, 0, 0.04);
-  }
-  .MuiIconButton-root.Mui-disabled {
-    color: rgba(0, 0, 0, 0.26);
-    background-color: transparent;
-  }
-@media (hover: none) {
-  .MuiIconButton-root:hover {
-    background-color: transparent;
-  }
-}
-  .MuiIconButton-edgeStart {
-    margin-left: -12px;
-  }
-  .MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
-    margin-left: -3px;
-  }
-  .MuiIconButton-edgeEnd {
-    margin-right: -12px;
-  }
-  .MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
-    margin-right: -3px;
-  }
-  .MuiIconButton-colorInherit {
-    color: inherit;
-  }
-  .MuiIconButton-colorPrimary {
-    color: #0096c7;
-  }
-  .MuiIconButton-colorPrimary:hover {
-    background-color: rgba(0, 150, 199, 0.04);
-  }
-@media (hover: none) {
-  .MuiIconButton-colorPrimary:hover {
-    background-color: transparent;
-  }
-}
-  .MuiIconButton-colorSecondary {
-    color: #c71f37;
-  }
-  .MuiIconButton-colorSecondary:hover {
-    background-color: rgba(199, 31, 55, 0.04);
-  }
-@media (hover: none) {
-  .MuiIconButton-colorSecondary:hover {
-    background-color: transparent;
-  }
-}
-  .MuiIconButton-sizeSmall {
-    padding: 3px;
-    font-size: 1.125rem;
-  }
-  .MuiIconButton-label {
-    width: 100%;
-    display: flex;
-    align-items: inherit;
-    justify-content: inherit;
-  }
+
+  .jss4 {  }
   .jss1 {
     display: flex;
     align-items: center;
-    padding-block: 30vh;
     flex-direction: column;
     justify-content: center;
   }
@@ -661,23 +561,9 @@ body::backdrop {
     display: block;
   }
   .jss3 {
-    margin: 5%;
-  }
-  .jss4 {
-    width: 3em;
-    height: 3em;
-    opacity: 60%;
-    border-radius: 50%;
-    margin-inline: 0.5vh;
-  }
-  .jss4:hover {
-    width: 3.5em;
-    height: 3.5em;
-    opacity: 80%;
-    transition: 0.5s;
-  }
-  .jss5 {
-    width: 5vh;
-    height: 5vh;
-    border-radius: 50%;
+    width: max-content;
+    opacity: 75%;
+    padding: 15%;
+    border-right-style: solid;
+    border-right-width: 1px;
   }
