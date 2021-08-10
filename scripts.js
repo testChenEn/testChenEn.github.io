@@ -1,1 +1,0 @@
-document.getElementById("link-0-0").onclick = () => window.open("https://github.com");
